@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Depot
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreateProducts	db/migrate/20150427132114_create_products.rb	/^class CreateProducts < ActiveRecord::Migration$/;"	c
+Depot	config/application.rb	/^module Depot$/;"	m
+Product	app/models/product.rb	/^class Product < ActiveRecord::Base$/;"	c
+ProductTest	test/models/product_test.rb	/^class ProductTest < ActiveSupport::TestCase$/;"	c
+ProductsController	app/controllers/products_controller.rb	/^class ProductsController < ApplicationController$/;"	c
+ProductsControllerTest	test/controllers/products_controller_test.rb	/^class ProductsControllerTest < ActionController::TestCase$/;"	c
+ProductsHelper	app/helpers/products_helper.rb	/^module ProductsHelper$/;"	m
+StoreController	app/controllers/store_controller.rb	/^class StoreController < ApplicationController$/;"	c
+StoreControllerTest	test/controllers/store_controller_test.rb	/^class StoreControllerTest < ActionController::TestCase$/;"	c
+StoreHelper	app/helpers/store_helper.rb	/^module StoreHelper$/;"	m
+change	db/migrate/20150427132114_create_products.rb	/^  def change$/;"	f	class:CreateProducts
+create	app/controllers/products_controller.rb	/^  def create$/;"	f	class:ProductsController
+destroy	app/controllers/products_controller.rb	/^  def destroy$/;"	f	class:ProductsController
+edit	app/controllers/products_controller.rb	/^  def edit$/;"	f	class:ProductsController
+index	app/controllers/products_controller.rb	/^  def index$/;"	f	class:ProductsController
+index	app/controllers/store_controller.rb	/^  def index$/;"	f	class:StoreController
+new	app/controllers/products_controller.rb	/^  def new$/;"	f	class:ProductsController
+product_params	app/controllers/products_controller.rb	/^    def product_params$/;"	f	class:ProductsController
+set_product	app/controllers/products_controller.rb	/^    def set_product$/;"	f	class:ProductsController
+show	app/controllers/products_controller.rb	/^  def show$/;"	f	class:ProductsController
+update	app/controllers/products_controller.rb	/^  def update$/;"	f	class:ProductsController
